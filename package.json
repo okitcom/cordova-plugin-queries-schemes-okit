@@ -1,0 +1,37 @@
+{
+  "name": "cordova-plugin-queries-schemes-okit",
+  "version": "0.1.6",
+  "description": "Cordova / PhoneGap Plugin to work arround Apple's iOS9 requirement that URL Schemes be declared and submitted to Apple (via Info.plist file).",
+  "cordova": {
+    "id": "cordova-plugin-queries-schemes-okit",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okitcom/cordova-plugin-queries-schemes-okit.git"
+  },
+  "keywords": [
+    "cordova",
+    "ios",
+    "app",
+    "queries",
+    "url",
+    "schemes",
+    "lsapplicationqueriesschemes",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/okitcom/cordova-plugin-queries-schemes-okit/issues"
+  },
+  "homepage": "https://github.com/okitcom/cordova-plugin-queries-schemes-okit"
+}

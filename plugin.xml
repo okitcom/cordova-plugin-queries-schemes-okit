@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="cordova-plugin-queries-schemes-okit" version="0.1.1" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>App Queries Strings OK</name>
+    <author>OK IP BV (https://okit.com)</author>
+    <description>
+      Cordova / PhoneGap Plugin to work arround Apple's iOS9 requirement that URL Schemes
+      be declared and submitted to Apple (via Info.plist file)
+    </description>
+    <keywords>cordova, ios, app, queries, url, schemes, lsapplicationqueriesschemes</keywords>
+    <license>MIT</license>
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+    <platform name="ios">
+      <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
+        <array>
+          <string>okapp</string>
+          <string>okappalpha</string>
+          <string>okappdev</string>
+          <string>okapptest</string>
+          <string>okappbeta</string>
+        </array>
+      </config-file>
+    </platform>
+</plugin>
